@@ -1,15 +1,121 @@
----
-theme: jekyll-theme-tactile
----
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>Page Title</title>
-	</head>
-	<body>
+<html lang="en">
+<head>
+<title>René Zambrana's Webpage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-		<h1>This is a Heading</h1>
-		<p>This is a paragraph.</p>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-	</body>
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Welcome to René Zambrana's Website</h2>
+
+
+
+<div class="header">
+  <img title="René Zambrana in December of 2019" src="image000000_01.jpg" alt="René" height="310" width="390">
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#f1f1f1;"></div>
+  
+  <div class="column middle", style="background-color:#bbb;", style="text-align:center;"><h3 style="text-align:center";>Biography</h3>
+	<p>	  I was born in Ponce, Puerto Rico, but moved to Florida at a young age. I graduated from Columbia High School in 2007, and earned a Bachelor's Degree in Anthropology in 2011 from the University of Florida. 
+	 In 2017 I decided to return to school for a degree in Computer Science, and  am currently studying as a Senior at Valdosta State University, where I plan to graduate in the Fall of 2020.</p>
+	
+	<br>
+	<h3 style="text-align:center";>Objective</h3>
+	<p>My goal is to work as a software developer. I approach software development like a puzzle; the solution of which is a fully functional software system that accomplishes the desired goals,
+		and the rules of the puzzle are the constraints on the developmental tools at your disposal, or the ones you are permitted to use. I enjoy the challenge of discovering a way to implement a feature or
+		create an algorithm to properly perform a desired task, using only the tools at hand. For this reason, I desire to develop software as a profession.</p>
+
+	<br>
+	<h3 style="text-align:center";>Coding Experience</h3>
+	
+		<ul style="text-align:center;">
+		   <li>Java</li>
+		   <li>C Language</li>
+		</ul>
+	
+	<br>
+	<h3 style="text-align:center";>Working, Teaching, Research Experience</h3>
+	<p>For the Data Structures course in the Fall of 2018 I was part of a team that developed a working game that emulates Uno, including a fully-featured GUI. 
+			This was done to display the ability of Circularly Doubly Linked Lists (CDLL) to allow going back and forth through the turn order of players.
+			We also used the CDLL to emulate a Netflix video browser that allows you to scroll through videos in a circular loop, returning to the beginning of the list after reaching the end,
+			also with a GUI. This paper was published as part of the International Conference of the Foundations of Computer Science in 2019.
+			(Link to the paper <a href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/FCS2392.pdf" target="_blank">here</a>.)</p>
+	
+	
+
+		<br>
+		<h3 style="text-align:center";>Activities</h3>
+		<p>I am currently working in a small group of six to build a website for a local company in Lowndes County. The group is led by Professor Krishnendu Roy from Valdosta State University.</p>
+		<p>I am also currently a member of Team Square, in the process of developing a web application that facilitates the process of taking attendance for classes at Valdosta State University.
+		<br><br>
+		<p style="text-align:center"><a href="https://square-cs2020.github.io./" target="_blank">A Link to Team Square's Website</a></p>
+  	
+  </div>
+  
+	
+  <div class="column side" style="background-color:#f1f1f1;"></div>
+</div>
+
+<div class="footer">
+  <p>Template Provided by <a href="https://www.w3schools.com/html/default.asp" target="_blank">www.w3schools.com</a> </p>
+</div>
+
+</body>
 </html>
