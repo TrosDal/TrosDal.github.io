@@ -15,7 +15,6 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -35,6 +34,9 @@ body {
 /* Middle column */
 .column.middle {
   width: 60%;
+  opacity: 0.8;
+  border-style: solid;
+  border-width: thin;
 }
 
 /* Clear floats after the columns */
@@ -46,9 +48,11 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
+  border-style: double;
+  opacity: 0.7;
+  background-color: #bab9b6;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -57,25 +61,26 @@ body {
     width: 100%;
   }
 }
+
+body{
+  background-image: url("Puerto Rican Beach 7-12-2012 - Copy.jpg");
+}
 </style>
 </head>
 <body>
-
 <h2 style="text-align:center;">Welcome to René Zambrana's Website</h2>
-
-
 
 <div class="header">
   <img title="René Zambrana in December of 2019" src="image000000_01.jpg" alt="René" height="310" width="390">
 </div>
 
 <div class="row">
-  <div class="column side" style="background-color:#f1f1f1;"></div>
-  
+  <div class="column side"></div>
+
   <div class="column middle", style="background-color:#bbb;", style="text-align:center;"><h3 style="text-align:center";>Biography</h3>
-	<p>	  I was born in Ponce, Puerto Rico, but moved to Florida at a young age. I graduated from Columbia High School in 2007, and earned a Bachelor's Degree in Anthropology in 2011 from the University of Florida. 
+	<p>	  I was born in Ponce, Puerto Rico, but moved to Florida at a young age. I graduated from Columbia High School in 2007, and earned a Bachelor's Degree in Anthropology in 2011 from the University of Florida.
 	 In 2017 I decided to return to school for a degree in Computer Science, and  am currently studying as a Senior at Valdosta State University, where I plan to graduate in the Fall of 2020.</p>
-	
+
 	<br>
 	<h3 style="text-align:center";>Objective</h3>
 	<p>My goal is to work as a software developer. I approach software development like a puzzle; the solution of which is a fully functional software system that accomplishes the desired goals,
@@ -84,21 +89,23 @@ body {
 
 	<br>
 	<h3 style="text-align:center";>Coding Experience</h3>
-	
-		<ul style="text-align:center;">
+
+		<ul style="text-align:center;" margin-left: auto;
+    margin-right: auto;>
 		   <li>Java</li>
 		   <li>C Language</li>
+       <li>HTML</li>
 		</ul>
-	
+
 	<br>
 	<h3 style="text-align:center";>Working, Teaching, Research Experience</h3>
-	<p>For the Data Structures course in the Fall of 2018 I was part of a team that developed a working game that emulates Uno, including a fully-featured GUI. 
+	<p>For the Data Structures course in the Fall of 2018 I was part of a team that developed a working game that emulates Uno, including a fully-featured GUI.
 			This was done to display the ability of Circularly Doubly Linked Lists (CDLL) to allow going back and forth through the turn order of players.
 			We also used the CDLL to emulate a Netflix video browser that allows you to scroll through videos in a circular loop, returning to the beginning of the list after reaching the end,
 			also with a GUI. This paper was published as part of the International Conference of the Foundations of Computer Science in 2019.
 			(Link to the paper <a href="https://csce.ucmss.com/cr/books/2019/LFS/CSREA2019/FCS2392.pdf" target="_blank">here</a>.)</p>
-	
-	
+
+
 
 		<br>
 		<h3 style="text-align:center";>Activities</h3>
@@ -106,11 +113,11 @@ body {
 		<p>I am also currently a member of Team Square, in the process of developing a web application that facilitates the process of taking attendance for classes at Valdosta State University.
 		<br><br>
 		<p style="text-align:center"><a href="https://square-cs2020.github.io./" target="_blank">A Link to Team Square's Website</a></p>
-  	
+
   </div>
-  
-	
-  <div class="column side" style="background-color:#f1f1f1;"></div>
+
+
+  <div class="column side"></div>
 </div>
 
 <div class="footer">
@@ -119,4 +126,3 @@ body {
 
 </body>
 </html>
-
